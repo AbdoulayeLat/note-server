@@ -1,0 +1,53 @@
+{
+  "notes": [
+    {
+      "id": "1",
+      "title": "First Note",
+      "content": "This is my first Note and its content. Lorem ipsumasfsa asdfasd fsda fsadfasdfa fsdafsdafasdfsdaf "
+    },
+    {
+      "id": "2",
+      "title": "second Note",
+      "content": "This is my second Note and its content"
+    },
+    {
+      "id": "cf1b2d40-a67e-46ef-be75-60f30d742b0b",
+      "title": "Yes Yes",
+      "content": "Let's go"
+    }
+  ],
+  "users":{
+    "1":{
+      "username":"abdoulaye99",
+      "password":"password",
+      "rooms":["one"]
+    },
+    "2":{
+      "username":"ismael99",
+      "password":"password",
+      "rooms":["one"]
+    }
+  },
+  "rooms":{
+    "one":{
+      "title":"TheBoys",
+      "lastMessage": "Hey, welcome to theRoom!",
+      "users": ["abdoulaye99", "ismael99"]
+    }
+  },
+  "messages":{
+    "one":{
+      "m1":{
+        "sentBy":"abdoulaye99",
+        "content": "Hello!",
+        "timestamp": "09/01/2024"
+      },
+      "m2": {
+          "sentBy":"ismael99",
+          "content": "Hey, welcome to theRoom!",
+          "timestamp": "09/01/2024"
+      }
+    }
+  }
+
+}
